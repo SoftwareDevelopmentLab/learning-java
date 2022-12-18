@@ -1,2 +1,2 @@
-# PL_JAVA
-Responsável pelo código fonte das estruturas básica em java
+# Learning Java
+Responsável pelo código fonte das estruturas básicas estudadas em java
