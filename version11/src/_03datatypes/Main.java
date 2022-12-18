@@ -1,7 +1,9 @@
+package _03datatypes;
+
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-public class PrimitiveAndWrappersTypes {
+public class Main {
     public static void main(String[] args) {
         types();
     }
