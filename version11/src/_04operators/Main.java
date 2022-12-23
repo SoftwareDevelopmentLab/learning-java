@@ -7,17 +7,19 @@ public class Main {
   }
 
   static void operators() {
-    arithmetics();
+//    arithmetics();
+//
+//    assignment();
+//
+//    relational();
+//
+//    logical();
+//
+//    unary();
+//
+//    ternary();
 
-    assignment();
-
-    relational();
-
-    logical();
-
-    unary();
-
-    ternary();
+    bitwise();
   }
 
   static void arithmetics() {
@@ -91,5 +93,22 @@ public class Main {
     int y = 3;
     int z = x > y ? x : y;
     System.out.println(z);
+  }
+
+  static void bitwise() {
+    int x = 10;
+    int y = 3;
+    int and = x & y;
+    int or = x | y;
+    int xor = x ^ y;
+    int leftShift = x << y;
+    int rightShift = x >> y;
+    int rightShiftZero = x >>> y;
+    System.out.println(and);
+    System.out.println(or);
+    System.out.println(xor);
+    System.out.println(leftShift);
+    System.out.println(rightShift);
+    System.out.println(rightShiftZero);
   }
 }
