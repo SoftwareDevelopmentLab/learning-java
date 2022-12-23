@@ -16,6 +16,8 @@ public class Main {
     logical();
 
     unary();
+
+    ternary();
   }
 
   static void arithmetics() {
@@ -82,5 +84,12 @@ public class Main {
     System.out.println(x);
     x %= 3;
     System.out.println(x);
+  }
+
+  static void ternary() {
+    int x = 10;
+    int y = 3;
+    int z = x > y ? x : y;
+    System.out.println(z);
   }
 }
