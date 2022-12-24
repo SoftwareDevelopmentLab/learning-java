@@ -101,12 +101,14 @@ public class Main {
     int and = x & y;
     int or = x | y;
     int xor = x ^ y;
+    int not = ~x;
     int leftShift = x << y;
     int rightShift = x >> y;
     int rightShiftZero = x >>> y;
     System.out.println(and);
     System.out.println(or);
     System.out.println(xor);
+    System.out.println(not);
     System.out.println(leftShift);
     System.out.println(rightShift);
     System.out.println(rightShiftZero);
