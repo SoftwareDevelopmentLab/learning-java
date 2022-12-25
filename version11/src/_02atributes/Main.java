@@ -1,4 +1,4 @@
-package _02variables;
+package _02atributes;
 
 public class Main {
   public static void main(String[] args) {
