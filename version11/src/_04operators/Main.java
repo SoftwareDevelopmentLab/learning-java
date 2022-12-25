@@ -7,17 +7,17 @@ public class Main {
   }
 
   static void operators() {
-//    arithmetics();
-//
-//    assignment();
-//
-//    relational();
-//
-//    logical();
-//
-//    unary();
-//
-//    ternary();
+    arithmetics();
+
+    assignment();
+
+    relational();
+
+    logical();
+
+    unary();
+
+    ternary();
 
     bitwise();
   }
