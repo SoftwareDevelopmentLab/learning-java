@@ -1,4 +1,4 @@
-package _05methods;
+package _01_fundamentals._06_methods;
 
 public class Main {
   public static void main(String[] args) {

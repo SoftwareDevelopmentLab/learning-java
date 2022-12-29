@@ -1,4 +1,4 @@
-package _07_repeating_structure;
+package _01_fundamentals._05_loops;
 
 public class Main {
   public static void main(String[] args) {

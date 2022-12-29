@@ -1,4 +1,4 @@
-package _06_decision_structure;
+package _01_fundamentals._04_conditionals;
 
 public class Main {
   public static void main(String[] args) {

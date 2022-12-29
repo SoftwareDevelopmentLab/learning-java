@@ -1,4 +1,4 @@
-package _02atributes;
+package _01_fundamentals._02_atributes;
 
 public class Main {
   public static void main(String[] args) {

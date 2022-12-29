@@ -1,4 +1,4 @@
-package _03datatypes;
+package _01_fundamentals._03_datatypes;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
