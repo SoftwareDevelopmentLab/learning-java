@@ -1,11 +1,14 @@
-package _01_fundamentals._02_atributes;
+package _01_fundamentals._02_variables;
 
 public class Main {
   public static void main(String[] args) {
     variables();
   }
 
+
   static void variables() {
+    variableTypes();
+
     defaultInitialized();
 
     defaultNotInitialized();
@@ -15,6 +18,12 @@ public class Main {
     constant();
 
     multiplyInitialization();
+  }
+
+  static void variableTypes() {
+    // local
+    // of instance
+    // static
   }
 
   static void defaultInitialized() {
