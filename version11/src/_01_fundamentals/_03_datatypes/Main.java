@@ -9,11 +9,14 @@ public class Main {
     }
 
     static void types() {
-        charType();
-        charWrapperType();
+        booleanType();
+        booleanWrapperType();
 
         byteType();
         byteWrapperType();
+
+        charType();
+        charWrapperType();
 
         shortType();
         shortWrapperType();
@@ -30,9 +33,6 @@ public class Main {
         doubleType();
         doubleWrapperType();
 
-        booleanType();
-        booleanWrapperType();
-
         bigIntegerType();
 
         bigDecimalType();
@@ -40,21 +40,19 @@ public class Main {
         stringType();
     }
 
-    static void charType() {
-        System.out.println("====== char =====");
-        char charValue = 'A';
-        char charASCIIValue = 65;
+    static void booleanType() {
+        System.out.println("==== boolean ====");
 
-        System.out.println(charValue);
-        System.out.println(charASCIIValue);
-
-        System.out.printf("%c%n", charValue);
+        boolean booleanValue = true;
+        System.out.printf("%b%n", booleanValue);
     }
 
-    static void charWrapperType() {
-        System.out.println("=== Character ===");
-        System.out.println("type: " + Character.TYPE);
-        System.out.println(Character.isDefined(0));
+    static void booleanWrapperType() {
+        System.out.println("==== Boolean ====");
+
+        Boolean booleanValue = true;
+        System.out.printf("%b%n", booleanValue);
+        System.out.printf("TYPE: %s%n", Boolean.TYPE);
     }
 
     static void byteType() {
@@ -74,6 +72,23 @@ public class Main {
         System.out.printf("MÍNIMO: %d%n", Byte.MIN_VALUE);
 
         System.out.println(Byte.parseByte("123"));
+    }
+
+    static void charType() {
+        System.out.println("====== char =====");
+        char charValue = 'A';
+        char charASCIIValue = 65;
+
+        System.out.println(charValue);
+        System.out.println(charASCIIValue);
+
+        System.out.printf("%c%n", charValue);
+    }
+
+    static void charWrapperType() {
+        System.out.println("=== Character ===");
+        System.out.println("type: " + Character.TYPE);
+        System.out.println(Character.isDefined(0));
     }
 
     static void shortType() {
@@ -160,21 +175,6 @@ public class Main {
         System.out.printf("TYPE %s%n", Double.TYPE);
         System.out.printf("MÁXIMO: %f%n", Double.MAX_VALUE);
         System.out.printf("MÍNIMO: %f%n", Double.MIN_VALUE);
-    }
-
-    static void booleanType() {
-        System.out.println("==== boolean ====");
-
-        boolean booleanValue = true;
-        System.out.printf("%b%n", booleanValue);
-    }
-
-    static void booleanWrapperType() {
-        System.out.println("==== Boolean ====");
-
-        Boolean booleanValue = true;
-        System.out.printf("%b%n", booleanValue);
-        System.out.printf("TYPE: %s%n", Boolean.TYPE);
     }
 
     static void bigIntegerType() {

@@ -3,7 +3,7 @@
 | *TEMA*                    |                                      *O QUE APRENDEMOS*                                       |                              *LINK*                               | *VÍDEO*     |
 |---------------------------|:---------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------:|:------------|
 | Sintaxe Básica            | comentários, pacotes, classes, métodos, case sensitive, nomenclatura, modificadores de acesso | [Basic Syntax](./src/_01_fundamentals/_01_basic_syntax/Main.java) | [Youtube]() |
-| Variáveis                 |                                  Formas de definir variáveis                                  |    [Variables](./src/_01_fundamentals/_02_variables/Main.java)    | [Youtube]() |
+| Variáveis                 |                        Tipos de variáveis, Formas de definir variáveis                        |    [Variables](./src/_01_fundamentals/_02_variables/Main.java)    | [Youtube]() |
 | 1) Programa Base          |                   Hello world simples e formas de executar o nosso programa                   |          [Programa Base](./src/_01helloworld/Main.java)           | [youtube]() |
 | 2) Atributos              |                                  Formas de definir atributos                                  |             [Atributos](./src/_02atributes/Main.java)             | [Youtube]() |
 | 3) Tipos de Dados         |                          Tipos de dados e seus respectivos wrappers                           |          [Tipos de dados](./src/_03datatypes/Main.java)           | [Youtube]() |
